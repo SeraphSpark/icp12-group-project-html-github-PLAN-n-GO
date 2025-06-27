@@ -6,16 +6,20 @@
     text-align: justify;
 }
 
+.video-container {
+    align-items: center;
+
+
 .text-overlay {
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 400px;
-    padding-left: 100px;
+    padding-top: 300px;
+    padding-left: 50px;
     color: white;
 }
 
@@ -29,18 +33,18 @@ p {
     margin-top: 30px;
 }
 
-#main-head{
+#main-head {
     padding-left: 30px;
     font-size: 60px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+
 }
 
-#card{
+#card {
     padding-top: 30px;
 }

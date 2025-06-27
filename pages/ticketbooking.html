@@ -2,90 +2,18 @@
 <html lang="en">
 <head>
   <title>Ticket Booking</title>
+  <link rel="stylesheet" href="./ticket-booking.css">
 </head>
-<body background="./../image/ticket-booking/airplane-1.jpg" style="background-size: 100%;">
-  <br>
-  <div style="background-color: black; height: 50px;">
-    <nav style="text-align: center; padding-top: 10px;">
-      <a href="./../home.html" style="color: white;" target="_blank">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="about.html" style="color: white;" target="_blank">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="contact.html" style="color: white;" target="_blank">Contact Us</a>
-    </nav>
-  </div>
 
-  <div align="center">
-    <h1 style="font-size: 60px;">
-      <img src="./../image/logo-2-removebg.png" alt="Ticket Booking" width="10%" height="10%">
-      Ticket Booking 
-    </h1>
-  </div>
-  
-  <div align="center" style="font-size: 23px;">
-    <form>
-      <table style="width: 30%;">
-        <tr>
-          <td><label for="name" style="color: rgb(252, 251, 253);">Full Name:</label></td>
-          <td align="center"><input type="text" id="name" style="width: 200px;" required></td>
-        </tr>
-
-        <tr align="center"><td colspan="2"><br></td></tr>
-
-        <tr>
-          <td><label for="email" style="color: rgb(252, 251, 253);">Email:</label></td>
-          <td align="center"><input type="email" id="email" style="width: 200px;" required></td>
-        </tr>
-
-        <tr align="center"><td colspan="2"><br></td></tr>
-
-        <tr>
-          <td><label for="phone" style="color: rgb(252, 251, 253);">Phone Number:</label></td>
-          <td align="center"><input type="tel" id="phone" style="width: 200px;" required></td>
-        </tr>
-
-        <tr align="center"><td colspan="2"><br></td></tr>
-
-        <tr>
-          <td><label for="travelby" style="color: rgb(252, 251, 253);">Choose travel type:</label></td>
-          <td align="center">
-            <select id="travelby" style="width: 200px;" required>
-              <option>Choose travel type:</option>
-              <option>AeroPlane</option>
-              <option>Railway</option>
-              <option>Bus</option>
-            </select>
-          </td>
-        </tr>
-
-        <tr align="center"><td colspan="2"><br></td></tr>
-
-        <tr>
-          <td><label for="source" style="color: rgb(252, 251, 253);">Source:</label></td>
-          <td align="center"><input type="text" id="source" style="width: 200px;" required></td>
-        </tr>
-
-        <tr align="center"><td colspan="2"><br></td></tr>
-
-        <tr>
-          <td><label for="destination" style="color: rgb(252, 251, 253);">Destination:</label></td>
-          <td align="center"><input type="text" id="destination" style="width: 200px;" required></td>
-        </tr>
-
-        <tr align="center"><td colspan="2"><br></td></tr>
-
-        <tr>
-          <td><label for="date" style="color: rgba(252, 251, 253);">Departure Date:</label></td>
-          <td align="center"><input type="date" id="departure" style="width: 200px;" required></td>
-        </tr>
-
-        <tr align="center"><td colspan="2"><br></td></tr>
-
-        <tr align="center">
-          <td colspan="2">
-            <input type="submit" value="Book Ticket" style="background-color: green; width: 200px; height: 30px;">
-          </td>
-        </tr>
-      </table>
-    </form>
-  </div>
-</body>
-</html>
+<body>
+  <div class="navbar">
+    <div class="pages">
+      <img src="./../image/logo-1.png" alt="Plan N GO Logo" class="logo" width="5%" height="5%">
+      <a href="./../index.html" class="page"> Home </a>
+      <a href="./ticketbooking.html" class="page"> Tickets Booking </a>
+      <a href="./About.html" class="page"> About </a>
+      <a href="./Contact.html" class="page"> Contact </a>
+    </div>
+    <div class="search-bar">
+      <input list="explore-maharashtra" placeholder=" Search">
+    </div>
